@@ -32,7 +32,7 @@ export default function Home() {
         <PricingPage />
 
         <Contact />
-        
+
       </main>
 
       <Footer />
