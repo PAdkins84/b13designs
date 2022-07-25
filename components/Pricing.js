@@ -2,7 +2,7 @@ import { AiOutlineCheckCircle } from "react-icons/ai";
 
 const PricingPage = () => {
     return (
-        <div className="max-w-3xl mx-auto bg-gray-100 rounded">
+        <div className="max-w-6xl mx-auto rounded">
             <div className="text-center my-10">
                 <h1 className="font-bold text-3xl mb-2">Pricing Table</h1>
                 <h4 className="text-gray-600">See what we have to offer.</h4>
