@@ -5,7 +5,7 @@ const Contact = () => {
         <div className="max-w-6xl mx-auto sm:px-6 lg:px-8">
             <div className="mt-8 overflow-hidden">
                 <div className="grid grid-cols-1 md:grid-cols-2">
-                    <div className="p-6 mr-2 bg-purple-300 dark:bg-gray-800 sm:rounded-lg">
+                    <div className="p-6 lg:mr-2 bg-purple-300 dark:bg-gray-800 sm:rounded-lg">
                         <h1 className="text-4xl sm:text-5xl text-gray-800 dark:text-white font-extrabold tracking-tight">
                             Get in touch
                         </h1>
@@ -42,7 +42,7 @@ const Contact = () => {
                         </div>
                     </div>
 
-                    <form className="p-6 flex flex-col justify-center rounded-lg border border-purple-300">
+                    <form className="p-6 flex flex-col justify-center sm:rounded-lg border border-purple-300">
                         <div className="flex flex-col">
                             <label htmlFor="name" className="hidden">Full Name</label>
                             <input type="name" name="name" id="name" placeholder="Full Name" className="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-purple-300 dark:border-gray-700 text-gray-800 font-semibold focus:border-purple-600 focus:outline-none" />
